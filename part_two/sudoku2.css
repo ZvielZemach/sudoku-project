@@ -1,0 +1,31 @@
+#Level{
+ width: 14cm;
+ height: 10cm;  
+ border: 2px solid green;
+ display: flex;
+ justify-content: space-around;
+ flex-direction: column;
+ margin: 3cm 11cm;
+ align-items: center;
+}
+
+h1{
+   font-size: 1.5cm;
+   margin-top: -0.2cm; 
+}
+#name{
+color: aqua;
+}
+
+#buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#easy,#medium,#difficult{
+    color: white;
+    width: 2cm;
+    height: 1cm;
+    background-color: blue;
+}

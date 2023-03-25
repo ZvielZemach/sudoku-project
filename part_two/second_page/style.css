@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(0, 128, 0, 0.574);
+}
+
+#main{
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #00ff6e;
+    padding: 10px;
+}
+
+#title{
+    position: relative;
+    padding-left: 3cm;
+    font-size: 30px;
+}
+
+#secondtitle{
+    position: relative;
+    padding-left: 4.5cm;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.flexboxContainer{
+    display: flex;
+}
+
+.Button{
+  background-color: #4CAF50;
+  border: 1px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  width: 125px;
+  height: 125px;
+  font-size: 25px;
+  margin-left: 55px;
+  margin-top: 40px;
+}
